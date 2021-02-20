@@ -29,3 +29,5 @@ app.post('/uploader', (req, res) => {
         res.send("Something went wrong, most likely it's your fault if you are sure that it wasn't you then tell me.")
     }
 })
+
+app.listen(3000)
