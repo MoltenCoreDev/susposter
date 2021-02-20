@@ -29,7 +29,3 @@ app.post('/uploader', (req, res) => {
         res.send("Something went wrong, most likely it's your fault if you are sure that it wasn't you then tell me.")
     }
 })
-
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
-})
